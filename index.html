@@ -29,7 +29,76 @@
 </head>
 
 <body>
-  <h1 class="text-8xl py-10">English Janala Cooking... 🍽️</h1>
+
+  <header class="bg-base-100 shadow-sm bg-[#BADEFF26]">
+    <div class="navbar w-11/12 mx-auto">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+            <li>
+              <a href="" class=""> <i class="fa-solid fa-circle-question"></i> FAQ</a>
+            </li>
+            <li>
+              <a href="" class=""> <i class="fa-solid fa-book-open"></i> Learn</a>
+            </li>
+            <li>
+              <a href="" class=""> <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                Logout</a>
+            </li>
+          </ul>
+        </div>
+        <a class="flex items-center font-bold text-[20px]">
+          <span>English</span>
+          <img src="./assets/logo.png" alt="window-logo">
+          <span class="font-bangla">জানালা</span>
+        </a>
+      </div>
+      <div class="navbar-end hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 space-x-4">
+          <li>
+            <a href="" class="btn btn-outline btn-primary"> <i class="fa-solid fa-circle-question"></i> FAQ</a>
+          </li>
+          <li>
+            <a href="" class="btn btn-outline btn-primary"> <i class="fa-solid fa-book-open"></i> Learn</a>
+          </li>
+          <li>
+            <a href="" class="btn btn-outline btn-primary"> <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner Section -->
+  <section class="max-w-11/12 mx-auto flex flex-col-reverse md:flex-row justify-between items-center">
+    <div class="content w-full md:w-[35%] space-y-6 text-center md:text-left">
+      <h1 class="text-[40px] md:text-[48px] font-bold"><span class="text-[#00BCFF]">English</span> is Easy!!</h1>
+      <p class="font-bangla font-medium text-[#18181B]">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন
+        অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive
+        Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
+
+      <form action="" class="space-y-5">
+        <input type="text" placeholder="Enter Your Name" class="input input-md" />
+        <br>
+        <input type="password" placeholder="***********" class="input input-md">
+        <br>
+        <button class="btn btn-primary">Get Started</button>
+      </form>
+    </div>
+    <div class="hero-img w-full md:w-[40%]">
+      <img src="./assets/hero-student.png" alt="hero-student">
+    </div>
+  </section>
+
+  <!-- Levels -->
+  <section class="level-container"></section>
 
   <script src="./script/script.js"></script>
 </body>
